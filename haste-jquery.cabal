@@ -1,0 +1,22 @@
+name:                haste-jquery
+version:             0.1.0.0
+synopsis:            Idiomatic combinators for JQuery for the Haste compiler
+description:         JQuery combinators inspired to fay-jquery
+license:             MIT
+license-file:        LICENSE
+author:              Alfredo Di Napoli
+maintainer:          alfredo.dinapoli@gmail.com
+copyright:           Alfredo Di Napoli
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:
+    Haste.JQuery
+  build-depends:
+      base >=4.0.0.0 && < 5
+    , haste-compiler >= 0.4
+  hs-source-dirs:
+    src
+  default-language:    Haskell2010
